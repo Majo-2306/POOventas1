@@ -19,7 +19,7 @@
             double monto = double.Parse(txtMonto.Text); //Este nos convierte el texto a número
             Venta venta; //Polimorfismo
 
-            if (rbContado.Checked)
+            if (rbContado.Checked) //si seleccionan el rbContado
                 venta = new VentaContado(monto); //De venta se crea una nueva instacia que es new VentaContado y lo mismo pasa con new VentaCredito
             else
                 venta = new VentaCredito(monto);

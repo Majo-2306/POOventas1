@@ -12,7 +12,7 @@ namespace POOventas1
 
         public override double CalcularTotal()
         {
-            return monto;
+            return monto; //Este manda el monto original sin ningun incremento
         }
     }
 }

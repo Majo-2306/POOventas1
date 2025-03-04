@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POOventas1
 {
-    public abstract class Venta
+    public abstract class Venta //Clase abstracta
     {
         protected double monto; // Encapsulamiento
        

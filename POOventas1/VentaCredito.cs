@@ -12,7 +12,7 @@ namespace POOventas1
 
         public override double CalcularTotal()
         {
-            return monto * 1.05; // Incremento del 5% en ventas a credito
+            return monto * 1.05; // Aqui se aplica un Incremento del 5% en ventas a credito
         }
     }
 }
