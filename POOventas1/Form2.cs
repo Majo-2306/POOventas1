@@ -26,7 +26,7 @@
 
             ventas.Add(venta); //Agregar ventas
             ActualizarGrid();
-        }
+    }
         private void ActualizarGrid()
         {
             dataGridView1.DataSource = null;

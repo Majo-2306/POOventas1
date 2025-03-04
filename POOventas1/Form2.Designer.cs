@@ -74,15 +74,15 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 135);
+            dataGridView1.Location = new Point(12, 137);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(487, 178);
+            dataGridView1.Size = new Size(487, 176);
             dataGridView1.TabIndex = 2;
             // 
             // txtMonto
             // 
-            txtMonto.Location = new Point(12, 102);
+            txtMonto.Location = new Point(12, 104);
             txtMonto.Name = "txtMonto";
             txtMonto.PlaceholderText = "Monto";
             txtMonto.Size = new Size(165, 27);

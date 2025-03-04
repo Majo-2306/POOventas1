@@ -9,7 +9,7 @@ namespace POOventas1
     public abstract class Venta
     {
         protected double monto; // Encapsulamiento
-
+       
         public Venta(double monto)
         {
             this.monto = monto;
